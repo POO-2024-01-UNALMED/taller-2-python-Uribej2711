@@ -5,9 +5,9 @@ class Auto:
     def __init__ (self, modelo, precio, asientos, marca, motor, registro):
         self.modelo = modelo
         self.precio = precio
-        self.asientos = asientos
+        self.asiento = asientos
         self.marca = marca
-        self.motor = motor
+        self.Motor = motor
         self.registro = registro
     def cantidadAsientos(self):
         numAsientos = 0
