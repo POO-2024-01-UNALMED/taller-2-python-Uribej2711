@@ -9,14 +9,14 @@ class Auto:
         self.marca = marca
         self.motor = motor
         self.registro = registro
-    def cantidadAsientos (self):
+    def CantidadAsientos (self):
         numAsientos = 0
         for asiento in self.asientos:
             if (type(asiento) == asiento):
                 numAsientos += 1
         return numAsientos
 
-    def verificarIntegridad(self):
+    def VerificarIntegridad(self):
         if(self.registro == self.motor.registro):  
             for asiento in self.asientos:
                 if (type(asiento) == asiento):
